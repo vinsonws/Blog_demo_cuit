@@ -1,0 +1,28 @@
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn1 {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.nav1 {
+  background-image: linear-gradient(to bottom, #f7f7f7 0%, #eee 100%);
+  border: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav1 {
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .navbar-nav1 .nav-item1 {
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+

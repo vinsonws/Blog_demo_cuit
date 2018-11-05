@@ -1,0 +1,24 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+
+.imgback {
+  background-image:url('"https://via.placeholder.com/400x300');
+  background-repeat: no-repeat;
+}
+.midline {
+  margin:auto;
+  padding:auto;
+  text-align:center;
+}
+
+@media (min-width: 40em) {
+	  html {
+    font-size: 16px;
+  }
+}
+
+.listtime{
+   float: right;
+  margin:0;
+  padding:0;
+}
